@@ -16,13 +16,13 @@
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="#top" aria-label="Mohamed Mazen Ahmed, back to top">
-          <span class="brand-mark" aria-hidden="true">MM<span class="brand-dot">.</span></span>
-          <span class="brand-name">Mohamed Mazen</span>
+          <span class="brand-mark" aria-hidden="true">M<span class="brand-dot">↗</span></span>
+          <span class="brand-name">Mohamed Mazen <small>Portfolio / 2026</small></span>
         </a>
         <nav class="site-nav" aria-label="Main navigation">
-          <a href="#work">Work</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          <a href="#work"><span>01</span> Work</a>
+          <a href="#about"><span>02</span> About</a>
+          <a href="#contact"><span>03</span> Contact</a>
         </nav>
       </div>
     </header>
@@ -31,22 +31,41 @@
       <section class="hero" id="top" aria-labelledby="hero-title">
         <div class="container hero-inner">
           <div class="hero-overline">
-            <span>Data Science &amp; Artificial Intelligence</span>
-            <span>Cairo, Egypt</span>
+            <span class="availability"><i aria-hidden="true"></i> Available for opportunities</span>
+            <span>Cairo, Egypt · 30.0444° N / 31.2357° E</span>
           </div>
 
-          <div class="hero-title-wrap">
-            <p class="hero-intro">Hello, I’m</p>
-            <h1 id="hero-title">Mohamed<br /><span>Mazen Ahmed<span class="title-period">.</span></span></h1>
+          <div class="hero-stage">
+            <div class="hero-title-wrap">
+              <p class="hero-intro"><span>01</span> Hello, I’m</p>
+              <h1 id="hero-title"><span class="outline-word">Mohamed</span><br />Mazen Ahmed<span class="title-period">.</span></h1>
+              <div class="role-strip" aria-label="Professional focus">
+                <span>Data Scientist</span><span>AI Explorer</span><span>Software Builder</span>
+              </div>
+            </div>
+            <div class="hero-orbit" aria-hidden="true">
+              <div class="orbit orbit-one"></div>
+              <div class="orbit orbit-two"></div>
+              <div class="orbit-core"><span>DATA</span><strong>×</strong><span>CODE</span></div>
+              <span class="orbit-label orbit-label-a">ML / 06</span>
+              <span class="orbit-label orbit-label-b">BUILD / ITERATE</span>
+            </div>
           </div>
 
           <div class="hero-bottom">
-            <p class="hero-summary">I build practical tools where data, software, and AI meet—from document analysis and Linux log monitoring to course planning and desktop apps.</p>
-            <a class="text-link light-link" href="#work">Explore my projects <span aria-hidden="true">↗</span></a>
+            <p class="hero-summary">I turn <strong>data, software, and AI</strong> into useful tools—from document intelligence and Linux security to networked applications.</p>
+            <a class="hero-cta" href="#work"><span>Explore selected work</span><b aria-hidden="true">↓</b></a>
           </div>
-          <div class="hero-index" aria-hidden="true">M / 01</div>
+          <div class="hero-grid-lines" aria-hidden="true"></div>
         </div>
       </section>
+
+      <div class="signal-strip" aria-label="Core disciplines">
+        <div class="signal-track">
+          <span>Python</span><i>✦</i><span>Machine Learning</span><i>✦</i><span>Linux</span><i>✦</i><span>Data Structures</span><i>✦</i><span>Networking</span><i>✦</i><span>Build · Test · Learn</span><i>✦</i>
+          <span aria-hidden="true">Python</span><i aria-hidden="true">✦</i><span aria-hidden="true">Machine Learning</span><i aria-hidden="true">✦</i><span aria-hidden="true">Linux</span><i aria-hidden="true">✦</i><span aria-hidden="true">Data Structures</span><i aria-hidden="true">✦</i><span aria-hidden="true">Networking</span><i aria-hidden="true">✦</i><span aria-hidden="true">Build · Test · Learn</span><i aria-hidden="true">✦</i>
+        </div>
+      </div>
 
       <section class="work-section section-pad" id="work" aria-labelledby="work-title">
         <div class="container">
@@ -54,6 +73,7 @@
             <p class="eyebrow"><span class="section-number">01</span> Selected work</p>
             <h2 id="work-title">Projects with<br /><em>a purpose.</em></h2>
             <p class="section-lead">Six projects, ordered from foundational builds to more complex systems and AI applications.</p>
+            <div class="work-count" aria-hidden="true"><strong>06</strong><span>Selected<br />projects</span></div>
           </div>
 
           <div class="project-list">
@@ -175,6 +195,7 @@
             <h2 id="about-title">Curious about data.<br /><em>Driven to build.</em></h2>
             <p>I’m pursuing a B.Sc. in Data Science and Artificial Intelligence at Elsewedy University of Technology. My work combines Python, SQL, and data visualization with a growing focus on deep learning and NLP.</p>
             <p>I’m interested in turning complex problems into useful applications through clear thinking, collaboration, and continuous learning.</p>
+            <div class="about-stamp" aria-hidden="true"><span>MM</span><small>Learn<br />Build<br />Repeat</small></div>
           </div>
           <div class="about-details">
             <div class="detail-block">
@@ -194,7 +215,7 @@
 
       <section class="skills-section" aria-labelledby="skills-title">
         <div class="container skills-grid">
-          <div><p class="eyebrow"><span class="section-number">03</span> Toolkit</p><h2 id="skills-title">What I work with</h2></div>
+          <div class="skills-heading"><p class="eyebrow"><span class="section-number">03</span> Toolkit</p><h2 id="skills-title">What I<br /><em>work with</em></h2><p>A practical stack shaped by building across data, systems, and software.</p></div>
           <div class="skill-groups">
             <div class="skill-group"><h3>Programming</h3><p>Python · C++ · Java · Bash · HTML</p></div>
             <div class="skill-group"><h3>Core concepts</h3><p>Data structures · Pointers · Dynamic memory · Graph traversal</p></div>
@@ -211,6 +232,7 @@
           <h2 id="contact-title">Let’s build<br /><em>something useful.</em></h2>
           <p>Open to internships and collaborations in data science, AI, and software development.</p>
           <a class="email-link" href="mailto:Mohamedmazen03@gmail.com">Mohamedmazen03@gmail.com <span aria-hidden="true">↗</span></a>
+          <div class="contact-meta"><span>Cairo · Egypt</span><span>Arabic · English</span><span>Open to opportunities</span></div>
         </div>
       </section>
     </main>
